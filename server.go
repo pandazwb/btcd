@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The pandazwb developers
 // Copyright (c) 2015-2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -22,22 +22,22 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/addrmgr"
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/blockchain/indexers"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/connmgr"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/mining"
-	"github.com/btcsuite/btcd/mining/cpuminer"
-	"github.com/btcsuite/btcd/netsync"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/bloom"
+	"github.com/pandazwb/btcd/addrmgr"
+	"github.com/pandazwb/btcd/blockchain"
+	"github.com/pandazwb/btcd/blockchain/indexers"
+	"github.com/pandazwb/btcd/chaincfg"
+	"github.com/pandazwb/btcd/chaincfg/chainhash"
+	"github.com/pandazwb/btcd/connmgr"
+	"github.com/pandazwb/btcd/database"
+	"github.com/pandazwb/btcd/mempool"
+	"github.com/pandazwb/btcd/mining"
+	"github.com/pandazwb/btcd/mining/cpuminer"
+	"github.com/pandazwb/btcd/netsync"
+	"github.com/pandazwb/btcd/peer"
+	"github.com/pandazwb/btcd/txscript"
+	"github.com/pandazwb/btcd/wire"
+	"github.com/pandazwb/btcutil"
+	"github.com/pandazwb/btcutil/bloom"
 )
 
 const (

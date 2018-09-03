@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -14,18 +14,18 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/database/internal/treap"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/goleveldb/leveldb"
-	"github.com/btcsuite/goleveldb/leveldb/comparer"
-	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/btcsuite/goleveldb/leveldb/filter"
-	"github.com/btcsuite/goleveldb/leveldb/iterator"
-	"github.com/btcsuite/goleveldb/leveldb/opt"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/pandazwb/btcd/chaincfg/chainhash"
+	"github.com/pandazwb/btcd/database"
+	"github.com/pandazwb/btcd/database/internal/treap"
+	"github.com/pandazwb/btcd/wire"
+	"github.com/pandazwb/btcutil"
+	"github.com/pandazwb/goleveldb/leveldb"
+	"github.com/pandazwb/goleveldb/leveldb/comparer"
+	ldberrors "github.com/pandazwb/goleveldb/leveldb/errors"
+	"github.com/pandazwb/goleveldb/leveldb/filter"
+	"github.com/pandazwb/goleveldb/leveldb/iterator"
+	"github.com/pandazwb/goleveldb/leveldb/opt"
+	"github.com/pandazwb/goleveldb/leveldb/util"
 )
 
 const (

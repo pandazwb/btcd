@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The btcsuite developers
+// Copyright (c) 2016 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/pandazwb/btcd/blockchain"
+	"github.com/pandazwb/btcd/btcec"
+	"github.com/pandazwb/btcd/chaincfg"
+	"github.com/pandazwb/btcd/chaincfg/chainhash"
+	"github.com/pandazwb/btcd/txscript"
+	"github.com/pandazwb/btcd/wire"
+	"github.com/pandazwb/btcutil"
 )
 
 // fakeChain is used by the pool harness to provide generated test utxos and

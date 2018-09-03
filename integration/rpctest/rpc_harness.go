@@ -1,4 +1,4 @@
-// Copyright (c) 2016-2017 The btcsuite developers
+// Copyright (c) 2016-2017 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -15,11 +15,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/pandazwb/btcd/chaincfg"
+	"github.com/pandazwb/btcd/chaincfg/chainhash"
+	"github.com/pandazwb/btcd/rpcclient"
+	"github.com/pandazwb/btcd/wire"
+	"github.com/pandazwb/btcutil"
 )
 
 const (

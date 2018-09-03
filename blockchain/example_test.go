@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2016 The btcsuite developers
+// Copyright (c) 2014-2016 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcutil"
+	"github.com/pandazwb/btcd/blockchain"
+	"github.com/pandazwb/btcd/chaincfg"
+	"github.com/pandazwb/btcd/database"
+	_ "github.com/pandazwb/btcd/database/ffldb"
+	"github.com/pandazwb/btcutil"
 )
 
 // This example demonstrates how to create a new chain instance and use

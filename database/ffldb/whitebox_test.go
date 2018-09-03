@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -17,12 +17,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/goleveldb/leveldb"
-	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
+	"github.com/pandazwb/btcd/chaincfg"
+	"github.com/pandazwb/btcd/database"
+	"github.com/pandazwb/btcd/wire"
+	"github.com/pandazwb/btcutil"
+	"github.com/pandazwb/goleveldb/leveldb"
+	ldberrors "github.com/pandazwb/goleveldb/leveldb/errors"
 )
 
 var (

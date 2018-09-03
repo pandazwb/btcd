@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btclog"
+	"github.com/pandazwb/btcd/database"
+	"github.com/pandazwb/btclog"
 	flags "github.com/jessevdk/go-flags"
 )
 

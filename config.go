@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/connmgr"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/go-socks/socks"
+	"github.com/pandazwb/btcd/blockchain"
+	"github.com/pandazwb/btcd/chaincfg"
+	"github.com/pandazwb/btcd/chaincfg/chainhash"
+	"github.com/pandazwb/btcd/connmgr"
+	"github.com/pandazwb/btcd/database"
+	_ "github.com/pandazwb/btcd/database/ffldb"
+	"github.com/pandazwb/btcd/mempool"
+	"github.com/pandazwb/btcd/peer"
+	"github.com/pandazwb/btcutil"
+	"github.com/pandazwb/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
 )
 

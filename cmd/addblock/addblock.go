@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The btcsuite developers
+// Copyright (c) 2013-2016 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/blockchain/indexers"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/limits"
-	"github.com/btcsuite/btclog"
+	"github.com/pandazwb/btcd/blockchain"
+	"github.com/pandazwb/btcd/blockchain/indexers"
+	"github.com/pandazwb/btcd/database"
+	"github.com/pandazwb/btcd/limits"
+	"github.com/pandazwb/btclog"
 )
 
 const (

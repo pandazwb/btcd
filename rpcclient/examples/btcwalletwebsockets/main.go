@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The btcsuite developers
+// Copyright (c) 2014-2017 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcutil"
+	"github.com/pandazwb/btcd/rpcclient"
+	"github.com/pandazwb/btcutil"
 	"github.com/davecgh/go-spew/spew"
 )
 

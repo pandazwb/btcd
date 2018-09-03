@@ -1,4 +1,4 @@
-// Copyright (c) 2017 The btcsuite developers
+// Copyright (c) 2017 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,14 +7,14 @@ package indexers
 import (
 	"errors"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/gcs"
-	"github.com/btcsuite/btcutil/gcs/builder"
+	"github.com/pandazwb/btcd/blockchain"
+	"github.com/pandazwb/btcd/chaincfg"
+	"github.com/pandazwb/btcd/chaincfg/chainhash"
+	"github.com/pandazwb/btcd/database"
+	"github.com/pandazwb/btcd/wire"
+	"github.com/pandazwb/btcutil"
+	"github.com/pandazwb/btcutil/gcs"
+	"github.com/pandazwb/btcutil/gcs/builder"
 )
 
 const (

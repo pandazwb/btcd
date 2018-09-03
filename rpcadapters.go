@@ -1,4 +1,4 @@
-// Copyright (c) 2017 The btcsuite developers
+// Copyright (c) 2017 The pandazwb developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,13 +7,13 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/netsync"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/pandazwb/btcd/blockchain"
+	"github.com/pandazwb/btcd/chaincfg/chainhash"
+	"github.com/pandazwb/btcd/mempool"
+	"github.com/pandazwb/btcd/netsync"
+	"github.com/pandazwb/btcd/peer"
+	"github.com/pandazwb/btcd/wire"
+	"github.com/pandazwb/btcutil"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

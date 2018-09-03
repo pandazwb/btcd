@@ -34,61 +34,61 @@ var someIP = "173.194.115.66"
 func addNaTests() {
 	// IPv4
 	// Localhost
-	addNaTest("127.0.0.1", 8333, "127.0.0.1:8333")
-	addNaTest("127.0.0.1", 8334, "127.0.0.1:8334")
+	addNaTest("127.0.0.1", 3889, "127.0.0.1:3889")
+	addNaTest("127.0.0.1", 3890, "127.0.0.1:3890")
 
 	// Class A
-	addNaTest("1.0.0.1", 8333, "1.0.0.1:8333")
-	addNaTest("2.2.2.2", 8334, "2.2.2.2:8334")
-	addNaTest("27.253.252.251", 8335, "27.253.252.251:8335")
-	addNaTest("123.3.2.1", 8336, "123.3.2.1:8336")
+	addNaTest("1.0.0.1", 3889, "1.0.0.1:3889")
+	addNaTest("2.2.2.2", 3890, "2.2.2.2:3890")
+	addNaTest("27.253.252.251", 3891, "27.253.252.251:3891")
+	addNaTest("123.3.2.1", 3892, "123.3.2.1:3892")
 
 	// Private Class A
-	addNaTest("10.0.0.1", 8333, "10.0.0.1:8333")
-	addNaTest("10.1.1.1", 8334, "10.1.1.1:8334")
-	addNaTest("10.2.2.2", 8335, "10.2.2.2:8335")
-	addNaTest("10.10.10.10", 8336, "10.10.10.10:8336")
+	addNaTest("10.0.0.1", 3889, "10.0.0.1:3889")
+	addNaTest("10.1.1.1", 3890, "10.1.1.1:3890")
+	addNaTest("10.2.2.2", 3891, "10.2.2.2:3891")
+	addNaTest("10.10.10.10", 3892, "10.10.10.10:3892")
 
 	// Class B
-	addNaTest("128.0.0.1", 8333, "128.0.0.1:8333")
-	addNaTest("129.1.1.1", 8334, "129.1.1.1:8334")
-	addNaTest("180.2.2.2", 8335, "180.2.2.2:8335")
-	addNaTest("191.10.10.10", 8336, "191.10.10.10:8336")
+	addNaTest("128.0.0.1", 3889, "128.0.0.1:3889")
+	addNaTest("129.1.1.1", 3890, "129.1.1.1:3890")
+	addNaTest("180.2.2.2", 3891, "180.2.2.2:3891")
+	addNaTest("191.10.10.10", 3892, "191.10.10.10:3892")
 
 	// Private Class B
-	addNaTest("172.16.0.1", 8333, "172.16.0.1:8333")
-	addNaTest("172.16.1.1", 8334, "172.16.1.1:8334")
-	addNaTest("172.16.2.2", 8335, "172.16.2.2:8335")
-	addNaTest("172.16.172.172", 8336, "172.16.172.172:8336")
+	addNaTest("172.16.0.1", 3889, "172.16.0.1:3889")
+	addNaTest("172.16.1.1", 3890, "172.16.1.1:3890")
+	addNaTest("172.16.2.2", 3891, "172.16.2.2:3891")
+	addNaTest("172.16.172.172", 3892, "172.16.172.172:3892")
 
 	// Class C
-	addNaTest("193.0.0.1", 8333, "193.0.0.1:8333")
-	addNaTest("200.1.1.1", 8334, "200.1.1.1:8334")
-	addNaTest("205.2.2.2", 8335, "205.2.2.2:8335")
-	addNaTest("223.10.10.10", 8336, "223.10.10.10:8336")
+	addNaTest("193.0.0.1", 3889, "193.0.0.1:3889")
+	addNaTest("200.1.1.1", 3890, "200.1.1.1:3890")
+	addNaTest("205.2.2.2", 3891, "205.2.2.2:3891")
+	addNaTest("223.10.10.10", 3892, "223.10.10.10:3892")
 
 	// Private Class C
-	addNaTest("192.168.0.1", 8333, "192.168.0.1:8333")
-	addNaTest("192.168.1.1", 8334, "192.168.1.1:8334")
-	addNaTest("192.168.2.2", 8335, "192.168.2.2:8335")
-	addNaTest("192.168.192.192", 8336, "192.168.192.192:8336")
+	addNaTest("192.168.0.1", 3889, "192.168.0.1:3889")
+	addNaTest("192.168.1.1", 3890, "192.168.1.1:3890")
+	addNaTest("192.168.2.2", 3891, "192.168.2.2:3891")
+	addNaTest("192.168.192.192", 3892, "192.168.192.192:3892")
 
 	// IPv6
 	// Localhost
-	addNaTest("::1", 8333, "[::1]:8333")
-	addNaTest("fe80::1", 8334, "[fe80::1]:8334")
+	addNaTest("::1", 3889, "[::1]:3889")
+	addNaTest("fe80::1", 3890, "[fe80::1]:3890")
 
 	// Link-local
-	addNaTest("fe80::1:1", 8333, "[fe80::1:1]:8333")
-	addNaTest("fe91::2:2", 8334, "[fe91::2:2]:8334")
-	addNaTest("fea2::3:3", 8335, "[fea2::3:3]:8335")
-	addNaTest("feb3::4:4", 8336, "[feb3::4:4]:8336")
+	addNaTest("fe80::1:1", 3889, "[fe80::1:1]:3889")
+	addNaTest("fe91::2:2", 3890, "[fe91::2:2]:3890")
+	addNaTest("fea2::3:3", 3891, "[fea2::3:3]:3891")
+	addNaTest("feb3::4:4", 3892, "[feb3::4:4]:3892")
 
 	// Site-local
-	addNaTest("fec0::1:1", 8333, "[fec0::1:1]:8333")
-	addNaTest("fed1::2:2", 8334, "[fed1::2:2]:8334")
-	addNaTest("fee2::3:3", 8335, "[fee2::3:3]:8335")
-	addNaTest("fef3::4:4", 8336, "[fef3::4:4]:8336")
+	addNaTest("fec0::1:1", 3889, "[fec0::1:1]:3889")
+	addNaTest("fed1::2:2", 3890, "[fed1::2:2]:3890")
+	addNaTest("fee2::3:3", 3891, "[fee2::3:3]:3891")
+	addNaTest("fef3::4:4", 3892, "[fef3::4:4]:3892")
 }
 
 func addNaTest(ip string, port uint16, want string) {
@@ -119,7 +119,7 @@ func TestAddAddressByIP(t *testing.T) {
 		err    error
 	}{
 		{
-			someIP + ":8333",
+			someIP + ":3889",
 			nil,
 		},
 		{
@@ -127,7 +127,7 @@ func TestAddAddressByIP(t *testing.T) {
 			addrErr,
 		},
 		{
-			someIP[:12] + ":8333",
+			someIP[:12] + ":3889",
 			fmtErr,
 		},
 		{
@@ -212,7 +212,7 @@ func TestAttempt(t *testing.T) {
 	n := addrmgr.New("testattempt", lookupFunc)
 
 	// Add a new address and get it
-	err := n.AddAddressByIP(someIP + ":8333")
+	err := n.AddAddressByIP(someIP + ":3889")
 	if err != nil {
 		t.Fatalf("Adding address failed: %v", err)
 	}
@@ -234,7 +234,7 @@ func TestConnected(t *testing.T) {
 	n := addrmgr.New("testconnected", lookupFunc)
 
 	// Add a new address and get it
-	err := n.AddAddressByIP(someIP + ":8333")
+	err := n.AddAddressByIP(someIP + ":3889")
 	if err != nil {
 		t.Fatalf("Adding address failed: %v", err)
 	}
@@ -261,14 +261,14 @@ func TestNeedMoreAddresses(t *testing.T) {
 
 	var err error
 	for i := 0; i < addrsToAdd; i++ {
-		s := fmt.Sprintf("%d.%d.173.147:8333", i/128+60, i%128+60)
+		s := fmt.Sprintf("%d.%d.173.147:3889", i/128+60, i%128+60)
 		addrs[i], err = n.DeserializeNetAddress(s)
 		if err != nil {
 			t.Errorf("Failed to turn %s into an address: %v", s, err)
 		}
 	}
 
-	srcAddr := wire.NewNetAddressIPPort(net.IPv4(173, 144, 173, 111), 8333, 0)
+	srcAddr := wire.NewNetAddressIPPort(net.IPv4(173, 144, 173, 111), 3889, 0)
 
 	n.AddAddresses(addrs, srcAddr)
 	numAddrs := n.NumAddresses()
@@ -289,14 +289,14 @@ func TestGood(t *testing.T) {
 
 	var err error
 	for i := 0; i < addrsToAdd; i++ {
-		s := fmt.Sprintf("%d.173.147.%d:8333", i/64+60, i%64+60)
+		s := fmt.Sprintf("%d.173.147.%d:3889", i/64+60, i%64+60)
 		addrs[i], err = n.DeserializeNetAddress(s)
 		if err != nil {
 			t.Errorf("Failed to turn %s into an address: %v", s, err)
 		}
 	}
 
-	srcAddr := wire.NewNetAddressIPPort(net.IPv4(173, 144, 173, 111), 8333, 0)
+	srcAddr := wire.NewNetAddressIPPort(net.IPv4(173, 144, 173, 111), 3889, 0)
 
 	n.AddAddresses(addrs, srcAddr)
 	for _, addr := range addrs {
@@ -323,7 +323,7 @@ func TestGetAddress(t *testing.T) {
 	}
 
 	// Add a new address and get it
-	err := n.AddAddressByIP(someIP + ":8333")
+	err := n.AddAddressByIP(someIP + ":3889")
 	if err != nil {
 		t.Fatalf("Adding address failed: %v", err)
 	}
